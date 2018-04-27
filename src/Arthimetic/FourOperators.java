@@ -15,11 +15,15 @@ public class FourOperators {
         int b = (x-y);
         int c = (x*y);
         int d = (x/y);
+        //remainder % modules
+        int e = (x % y);
+
         System.out.println();
         System.out.println("Expected result");
         System.out.println("The sum of "+x+" and "+y+" is:" +a);
         System.out.println("The difference of "+x+" and "+y+" is:" +b);
-        System.out.println("The product of"+x+" and "+y+" is:" +c);
+        System.out.println("The product of "+x+" and "+y+" is:" +c);
         System.out.println("The division of "+x+" and "+y+" is:" +d);
+        System.out.println(x+" mod "+y+" is:" +e);
     }
 }
