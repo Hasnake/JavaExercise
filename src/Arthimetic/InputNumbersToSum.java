@@ -1,4 +1,4 @@
-/**
+package Arthimetic; /**
  * Created by hasnake on 4/20/18.
  */
 import java.util.Scanner;
