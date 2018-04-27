@@ -25,5 +25,7 @@ public class FourOperators {
         System.out.println("The product of "+x+" and "+y+" is:" +c);
         System.out.println("The division of "+x+" and "+y+" is:" +d);
         System.out.println(x+" mod "+y+" is:" +e);
+        for (int z=1;z<11;z++)
+        System.out.println(x+" * "+z+" = "+z*x);
     }
 }
