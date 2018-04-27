@@ -23,8 +23,12 @@ public class InputNumbersToSum{
 
         //Sum
         int sum = num1 + num2+num3;
+        //mean
+        int mean=sum/3;
         System.out.println();
         System.out.println("Sum: "+sum);
+        System.out.println("average: "+mean);
+
     }
 
 }
