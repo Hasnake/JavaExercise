@@ -9,7 +9,7 @@ public class AreaOfcircle {
         System.out.print("Input the radius:");
         int r =input.nextInt();
         System.out.println("Perimeter of the circle is = "+2*r* Math.PI);
-        System.out.println("Area of the circle is ="+(r^r) * Math.PI);
+        System.out.println("Area of the circle is ="+(r^2) * Math.PI);
     }
 
 }
